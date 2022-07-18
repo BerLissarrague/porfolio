@@ -1,0 +1,15 @@
+.navbar{
+     background-color:#198754 ;
+    width: 100%;
+    justify-content: space-between;
+}
+.icone{
+    margin-right: 2%;
+    margin-left: 2% !important;
+}
+.navbar-expand-sm .navbar-collapse {
+    justify-content:space-around;
+}
+.navbar-nav{
+    margin-right: 2%;
+}
