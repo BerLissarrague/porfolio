@@ -1,7 +1,7 @@
 export default function tecnologias() {
     return (
         <div className="container">
-            <h1> Tecnologias </h1>
+            <h1> Proyectos </h1>
         </div>
     )
 }
