@@ -1,0 +1,28 @@
+.navbar{
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+}
+.cv{
+    width: 35px;
+    height: 35px;
+    margin-right: 2%;
+    margin-left: 35% !important;
+}
+.navbar-expand-sm .navbar-collapse {
+    justify-content:flex-end;
+}
+.navbar-nav{
+    margin-right: 2%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon { 
+    background-color: #212529; 
+   
+}
+.nav-link {
+    display: inline-flex;
+    color: white;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    color: white;
+}

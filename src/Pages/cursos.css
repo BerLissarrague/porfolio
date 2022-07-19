@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+	margin: 2%;
+}
+h2 {
+	margin: 2%;
+}
+p {
+	margin: 2%;
+}
+img {
+	width: 60%;
+	margin: 2%;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+}
+
+.carousel-item{
+    justify-content: space-around;
+}
