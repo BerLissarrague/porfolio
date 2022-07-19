@@ -11,6 +11,9 @@
 }
 .navbar-expand-sm .navbar-collapse {
     justify-content:flex-end;
+    align-content: flex-end;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
 }
 .navbar-nav{
     margin-right: 2%;
@@ -24,5 +27,4 @@
     color: white;
     flex-direction: row-reverse;
     justify-content: space-around;
-    color: white;
 }
