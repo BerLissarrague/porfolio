@@ -1,47 +1,46 @@
 .navbar {
-    margin-bottom: 2%;
-    width: 100%;
-    justify-content: space-between;
-    color: white;
+	margin-bottom: 2%;
+	width: 100%;
+	justify-content: space-between;
+	color: white;
 }
 
 .cv {
-    width: 35px;
-    height: 35px;
-    margin-right: 2%;
-    margin-left: 35%;
+	width: 35px;
+	height: 35px;
+	margin-right: 2%;
+	margin-left: 35%;
 }
 
 .navbar-expand-sm .navbar-collapse {
-    justify-content: flex-end;
-    align-content: flex-end;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: flex-end;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
 }
 
 .navbar-nav {
-    margin-right: 2%;
+	margin-right: 2%;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-    background-color: #212529;
-
+	background-color: #212529;
 }
 
 .nav-link {
-    display: inline-flex;
-    color: white;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+	display: inline-flex;
+	color: white;
+	flex-direction: row-reverse;
+	justify-content: space-around;
 }
 
 .nav-link:focus,
 .nav-link:hover {
-    color: rgba(110, 179, 284, 375);
+	color: rgba(110, 179, 284, 375);
 }
 
 .navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-    color: rgba(110, 179, 284, 375);
+.navbar-nav .show > .nav-link {
+	color: rgba(110, 179, 284, 375);
 }

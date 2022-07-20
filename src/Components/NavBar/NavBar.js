@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import cv from "../assets/img/cv-icon.png";
+import cv from "./../../img/cv-icon.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./NavBar.css";
 import Container from 'react-bootstrap/Container';
