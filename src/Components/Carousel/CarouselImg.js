@@ -1,13 +1,13 @@
-import Desarrollo from "../assets/img/Desarrollo_web.png";
-import  Js from "../assets/img/Javascript.png";
-import CReact from "../assets/img/React.png";
-import Testing from "../assets/img/Testing.jpg"
-import Sql from "../assets/img/Sql.jpg"
+import Desarrollo from "../../img/Desarrollo_web.png";
+import Js from "../../img/Javascript.png";
+import CReact from "../../img/React.png";
+import Testing from "../../img/Testing.jpg"
+import Sql from "../../img/Sql.jpg"
 import { Carousel } from 'react-bootstrap';
 
 export default function CarouselImg() {
-  return (
-    <Carousel className='carousel' >
+    return (
+        <Carousel className='carousel' >
             <Carousel.Item>
                 <img
                     className=" w-70"
@@ -40,6 +40,6 @@ export default function CarouselImg() {
                 />
             </Carousel.Item>
         </Carousel>
-  )
+    )
 }
 

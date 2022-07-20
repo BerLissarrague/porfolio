@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function experiencia() {
+export default function Experiencia() {
   return (
     <div className="container" >
       <h1>Experiencia Laboral</h1>

@@ -17,7 +17,8 @@ export default function navbar() {
           <Nav className="me-auto">
           <NavLink className="nav-item nav-link" to="Experiencia">Experiencia</NavLink>
           <NavLink className="nav-item nav-link" to="Cursos">Educación</NavLink>
-            <NavLink className="nav-item nav-link" to="Tecnologias">Tecnologias</NavLink>          
+          <NavLink className="nav-item nav-link" to="Tecnologias">Tecnologias</NavLink>      
+          <NavLink className="nav-item nav-link" to="Proyectos">Proyectos</NavLink>          
           </Nav>
         </Navbar.Collapse>
       </Container>
