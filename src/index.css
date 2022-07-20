@@ -40,11 +40,18 @@ code {
 
 ul {
   text-align: justify;
+  list-style: none
+}
+
+li {
+  list-style: none
 }
 
 h1 {
   text-align: center;
   margin: 2%;
+  margin-top: 4% !important;
+  text-decoration: underline rgba(110, 179, 284, 375);
 }
 
 h2 {
@@ -60,9 +67,12 @@ img {
 .carousel {
   width: 100%;
   background-color: rgba(0, 0, 0, .5);
+  margin-bottom: 4%;
 }
 
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
   display: flex !important;
-  justify-content: space-around;}
-
+  justify-content: space-around;
+}

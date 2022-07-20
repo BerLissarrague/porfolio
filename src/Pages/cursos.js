@@ -1,15 +1,10 @@
-import Desarrollo from "../Components/assets/img/Desarrollo_web.png";
-import Js from "../Components/assets/img/Javascript.png";
-import CReact from "../Components/assets/img/React.png";
-import Testing from "../Components/assets/img/Testing.jpg";
-import Sql from "../Components/assets/img/Sql.jpg";
-import { Carousel } from 'react-bootstrap';
+import Carousel from "../Components/Carous/CarouselImg";
 
 export default function cursos() {
     return (
 
         < div className="container">
-            <h1 className="mt-2"> Educacion</h1>
+            <h1 > Educacion</h1>
             <section className="sections">
                 <div className="card  p-3 mb-5 mt-5 bg-white rounded">
                     <div className="card-body">
@@ -68,39 +63,7 @@ export default function cursos() {
                     </div>
                 </div>
             </section>
-        <Carousel className='carousel' >
-            <Carousel.Item>
-                <img
-                    className=" w-70"
-                    src={Js}
-                    alt='imagenCarrousel'
-                />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img className="w-70 " src={Desarrollo} alt='imagenCarrousel' />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className=" w-70 "
-                    src={CReact}
-                    alt='imagenCarrousel'
-                />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className=" w-70"
-                    src={Sql}
-                    alt='imagenCarrousel'
-                />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className=" w-70 "
-                    src={Testing}
-                    alt='imagenCarrousel'
-                />
-            </Carousel.Item>
-        </Carousel>
+            <Carousel/>
             </div>
     );
 }
