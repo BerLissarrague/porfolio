@@ -11,14 +11,14 @@ export default function navbar() {
 
 <Navbar bg="dark" expand="sm">
       <Container>
-      <NavLink className="navbar-brand" to="/"><span><img className="cv" src={cv} alt="imagen" /> </span></NavLink>
+      <NavLink className="navbar-brand" to="Porfolio"><span><img className="cv" src={cv} alt="imagen" /> </span></NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <NavLink className="nav-item nav-link" to="Experiencia">Experiencia</NavLink>
-          <NavLink className="nav-item nav-link" to="Cursos">Educación</NavLink>
-          <NavLink className="nav-item nav-link" to="Tecnologias">Tecnologias</NavLink>      
-          <NavLink className="nav-item nav-link" to="Proyectos">Proyectos</NavLink>          
+          <NavLink className="nav-item nav-link" to="Porfolio/Experiencia">Experiencia</NavLink>
+          <NavLink className="nav-item nav-link" to="Porfolio/Cursos">Educación</NavLink>
+          <NavLink className="nav-item nav-link" to="Porfolio/Tecnologias">Tecnologias</NavLink>      
+          <NavLink className="nav-item nav-link" to="Porfolio/Proyectos">Proyectos</NavLink>          
           </Nav>
         </Navbar.Collapse>
       </Container>

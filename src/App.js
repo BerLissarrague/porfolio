@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Navbar from "./Components/NavBar/NavBar";
 import Cursos from "./Pages/Cursos";
 import Experiencia from "./Pages/Experiencia";
@@ -11,12 +11,12 @@ export default function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="*" element={<Navigate to="/" replace />} />
-        <Route path="/" element={<Home />} />
-        <Route path="Experiencia" element={<Experiencia />} />
-        <Route path="Cursos" element={<Cursos />} />
-        <Route path="Tecnologias" element={<Tecnologias />} />
-        <Route path="Proyectos" element={<Proyectos />} />
+      
+        <Route path="Porfolio" element={<Home />} />
+        <Route path="Porfolio/Experiencia" element={<Experiencia />} />
+        <Route path="Porfolio/Cursos" element={<Cursos />} />
+        <Route path="Porfolio/Tecnologias" element={<Tecnologias />} />
+        <Route path="Porfolio/Proyectos" element={<Proyectos />} />
       </Routes>
     </BrowserRouter>
   );
