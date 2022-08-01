@@ -3,42 +3,6 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 export default function tecnologias() {
 	return (
 		<div className="container">
-			<h1>Conocimiento de Tecnologias</h1>
-			<ProgressBar
-				className="barras"
-				striped
-				variant="success"
-				now={70}
-				label="Html-css"
-			/>
-			<ProgressBar
-				className="barras"
-				striped
-				variant="info"
-				now={60}
-				label="JavaScriptl"
-			/>
-			<ProgressBar
-				className="barras"
-				striped
-				variant="warning"
-				now={50}
-				label="React"
-			/>
-			<ProgressBar
-				className="barras"
-				striped
-				variant="danger"
-				now={40}
-				label="Sql"
-			/>
-			<ProgressBar
-				className="barras"
-				striped
-				variant="secondary"
-				now={30}
-				label="Java"
-			/>
 			<h2>Experiencia con las tecnologias</h2>
 			<ProgressBar
 				className="barras"
