@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./Components/NavBar/NavBar";
 import Cursos from "./Pages/Cursos";
 import Experiencia from "./Pages/Experiencia";
@@ -11,7 +11,7 @@ export default function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-      
+       <Route path="*" element={<Navigate to="Porfolio" replace />} />
         <Route path="Porfolio" element={<Home />} />
         <Route path="Porfolio/Experiencia" element={<Experiencia />} />
         <Route path="Porfolio/Cursos" element={<Cursos />} />
