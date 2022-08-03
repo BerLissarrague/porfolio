@@ -11,12 +11,12 @@ export default function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-       <Route path="*" element={<Navigate to="Porfolio" replace />} />
-        <Route path="Porfolio" element={<Home />} />
-        <Route path="Porfolio/Experiencia" element={<Experiencia />} />
-        <Route path="Porfolio/Cursos" element={<Cursos />} />
-        <Route path="Porfolio/Tecnologias" element={<Tecnologias />} />
-        <Route path="Porfolio/Proyectos" element={<Proyectos />} />
+      <Route exact path="porfolio" element={<Home />} />
+      <Route path="porfolio/Experiencia" element={<Experiencia />} />
+      <Route path="porfolio/Cursos" element={<Cursos />} />
+      <Route path="porfolio/Tecnologias" element={<Tecnologias />} />
+      <Route path="porfolio/Proyectos" element={<Proyectos />} />
+      <Route path="*" element={<Navigate to="porfolio" replace />} />
       </Routes>
     </BrowserRouter>
   );
